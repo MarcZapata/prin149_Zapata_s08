@@ -22,10 +22,79 @@
 	<p>Even if there is enough space, block elements do not next to each other unless they are floated</p>
 	<p>Inline elements are things like bold and italics. You cannot control the height and width of these elements</p>
 	<p>Inline-block can sit on the same line and combines block and inline properties</p>
+	<div class="flex-container">
 	<div class="sample">width = 30</div>
 	<div class="sample">width = 30</div>
 	<div class="sample">width = 30</div>
+	</div>
+	<div class="grid-container">
+	<div class="grid-item">width = 30</div>
+	<div class="grid-item">width = 30</div>
+	<div class="grid-item">width = 30</div>
+	</div>
 	<hr>
+	<h3>CSS Units</h3>
+
+	<h4>px vs %</h4>
+	<div class="box fifty-percent">50%</div>
+	<div class="box one-hundred-pixels">100px</div>
+	<div class="box fifty-vw">50vw</div>
+	<div class="box twenty-five-vh">25vh</div>
+	<div>16px</div>
+	<div class="one-rem">1rem</div>
+	<div class="one-em">1em</div>
+	<div class="two-rem">2rem</div>
+	<div class="two-em">2em</div>
+	<div class="two-hundred-percent">200%</div>
+	
+	<br />
+	<div class="parent">
+		<div class="one-rem">1rem</div>
+		<div class="one-em">1em</div>
+		<div class="two-rem">2rem</div>
+		<div class="two-em">2em</div>
+		<div class="two-hundred-percent">200%</div>
+
+		<div class="box fifty-percent">50%</div>
+		<div class="box one-hundred-pixels">100px</div>
+		<div class="box fifty-vw">50vw</div>
+		<div class="box twenty-five-vh">25vh</div>
+	</div>
+
+	<hr>
+	<section class="background">
+		<div class="container-bg">
+			<h3 class="bg-title">CSS Background Properties</h3>
+		</div>
+	</section>
+	<hr>
+
+	
+	<h2>CSS Positioning</h2>
+	<div class="parent-element">
+		Parent Element
+		<div class="child-one">
+			I'm the child one element
+		</div>
+		<div class="child-two">
+			All eyes on me. I am the child two element
+		</div>
+		<div class="child-three">
+			I'm the child three element
+		</div>
+	</div>
+
+	<hr>
+
+	<h2>Z-index Example</h2>
+	<p>An element with greater stack order is always above an element with lower stack order</p>
+
+	<div class="container">
+		<div class="black-box">Black Box</div>
+		<div class="gray-box">Gray Box</div>
+		<div class="green-box">Green Box</div>
+	</div>
+	
 
 </body>
 </html>
